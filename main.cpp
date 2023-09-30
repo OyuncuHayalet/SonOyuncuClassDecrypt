@@ -5,7 +5,9 @@
 #include <windows.h>
 #include <wincrypt.h>
 #include "base64.h"
-
+/*
+💀 vmpforjava
+*/
 namespace fs = std::filesystem;
 
 void parseFiles(const std::string& directoryPath, HCRYPTKEY hKey, HCRYPTHASH hHash, BOOL Final, DWORD dwFlags) {
